@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.438
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memory", "Memory\Memory.csproj", "{9F3BDC5C-73BF-4AAE-B258-F7125B12B440}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardClassLibrary", "CardClassLibrary\CardClassLibrary.csproj", "{E06B4363-DE30-4E15-83EA-9321937A94FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardTests", "CardTests\CardTests.csproj", "{41F5EF23-AA00-41D5-ACCF-270C54537B05}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +19,19 @@ Global
 		{9F3BDC5C-73BF-4AAE-B258-F7125B12B440}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F3BDC5C-73BF-4AAE-B258-F7125B12B440}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F3BDC5C-73BF-4AAE-B258-F7125B12B440}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E06B4363-DE30-4E15-83EA-9321937A94FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E06B4363-DE30-4E15-83EA-9321937A94FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E06B4363-DE30-4E15-83EA-9321937A94FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E06B4363-DE30-4E15-83EA-9321937A94FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41F5EF23-AA00-41D5-ACCF-270C54537B05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41F5EF23-AA00-41D5-ACCF-270C54537B05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41F5EF23-AA00-41D5-ACCF-270C54537B05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41F5EF23-AA00-41D5-ACCF-270C54537B05}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DC37B8AF-F09C-4264-B771-C5B9954201B3}
 	EndGlobalSection
 EndGlobal
