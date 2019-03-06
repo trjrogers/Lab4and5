@@ -22,11 +22,31 @@ namespace CustomerMaintenance
             InitializeComponent();
         }
 
+        private void frmCustomers_Load(object sender, System.EventArgs e)
+        {
+
+        }
+
+        // Declare a method to iterate through each customer in list and add display text to list box
+        private void FillCustomerListBox()
+        {
+            lstCustomers.Items.Clear();
+            foreach (Customer customer in customers)
+            {
+                lstCustomers.Items.Add(customer.GetDisplayText() + "\t");
+            }
+        }
+
+        private List<Customer> customers = null;
+
         private void btnAdd_Click(object sender, EventArgs e)
         {
 
         }
 
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
 
+        }
     }
 }
