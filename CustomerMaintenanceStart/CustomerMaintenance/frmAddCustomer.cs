@@ -32,21 +32,24 @@ namespace CustomerMaintenance
             return customer;
         }
 
+        // Validates form data
         private bool IsValidData()
         {
             return Validator.IsPresent(txtFirstName) && Validator.IsPresent(txtLastName) &&
                 Validator.IsPresent(txtEmail) && Validator.IsValidEmail(txtEmail);
         }
 
+        // Validates form data, creates new customer
         private void btnSave_Click(object sender, EventArgs e)
         {
             if (IsValidData())
             {
-                Customer customer = new Customer(txtFirstName.Text, txtLastName.Text, txtEmail.Text);
+                customer = new Customer(txtFirstName.Text, txtLastName.Text, txtEmail.Text);
                 this.Close();
             }
         }
 
+        // Closes form
         private void btnCancel_Click(object sender, EventArgs e)
         {
             this.Close();

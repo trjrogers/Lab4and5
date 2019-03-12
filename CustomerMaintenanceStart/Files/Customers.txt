@@ -1,2 +1,2 @@
-John|Smith|johnsmith@gmail.com
-Jane|Doe|janedoe@yahoo.com
+Trevor|Rogers|tr.jrogers@gmail.com
+Trevor|Rogers|rogerst@my.lanecc.edu

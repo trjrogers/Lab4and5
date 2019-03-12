@@ -16,9 +16,9 @@ namespace CustomerMaintenanceClasses
 
         public Customer(string first, string last, string em)
         {
-            firstName = first;
-            lastName = last;
-            email = em;
+            this.FirstName = first;
+            this.LastName = last;
+            this.Email = em;
         }
 
         public string FirstName
